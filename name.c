@@ -1,14 +1,15 @@
 #include <stdio.h>
 #include <locale.h>
-#include "name.h"
-void name1()
+void main()
 {
-	puts ("Моя программа");
-}
-void main(void)
-{
-	setlocale(LC_ALL, "RUS");
-	name1();
-	name();
+	puts("            ___        ___");
+	puts("          //   \\~~~~//   \\");
+	puts("    _____(        _ _      )");
+	puts("   '     \\___         ___//");
+	puts(" //           (\\     |(");
+	puts("//|            //\\   |");
+	puts("^ |           // _ ''  ");
+	puts(" \\   //____\\   |");
+	puts("   |__|       |__|");
 
 }
